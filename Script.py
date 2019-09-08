@@ -17,5 +17,6 @@ r = requests.get(
     "https://digitaldefynd.com/best-data-science-certification-course-tutorial/"
 )
 print(r.status_code)
+print(r.ok)
 
 
