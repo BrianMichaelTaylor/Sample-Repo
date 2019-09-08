@@ -21,3 +21,10 @@ print(r.ok)
 
 print(110 + 100 * 1.1 ** 5)
 
+horse = 200 - 4
+cat = 598 + 25
+dog = horse + cat
+print("The summation of horse and cat is dog which =", dog)
+
+print(r.history)
+
