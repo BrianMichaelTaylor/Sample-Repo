@@ -1,6 +1,8 @@
 import math
 import os
 import sys
+import unittest
+
 
 import requests
 
@@ -25,6 +27,10 @@ horse = 200 - 4
 cat = 598 + 25
 dog = horse + cat
 print("The summation of horse and cat is dog which =", dog)
+print(horse - cat)
+pig = horse - cat
+print(dog + horse + cat + pig)
+
 
 print(r.history)
 
